@@ -20,6 +20,8 @@ class MyDocument extends Document {
           />
           <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
           <link rel="icon" href="/icon.ico" />
+          <link rel="icon" href="/favicon.png" />
+
           <link rel="alternate icon" href="/icon.ico" type="image/x-icon" sizes="16x16"></link>
           <link rel="shortcut icon" href="/icon.ico" type="image/x-icon" sizes="16x16"></link>
 
