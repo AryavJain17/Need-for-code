@@ -19,7 +19,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="shortcut icon" href="/images/favicon.ico" />
         </Head>
         <body>
           <Main />
