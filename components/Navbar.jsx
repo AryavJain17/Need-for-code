@@ -37,10 +37,12 @@ const Navbar = () => {
           <Link href="#schedule" onClick={handleScroll}>
             Schedule
           </Link>
+          <Link href="#prizes" onClick={handleScroll}>
+            Prizes
+          </Link>
           <Link href="#sponsors" onClick={handleScroll}>
             Sponsors
           </Link>
-          
           <Link href="#faqs" onClick={handleScroll}>
             FAQs
           </Link>
@@ -110,7 +112,7 @@ const Navbar = () => {
               name="menu-outline"
             >
               <img
-                src="./images/navbar/mlh_flag.png"
+                src="/images/navbar/jatt.png"
                 alt="mlh hack the space"
                 width={100}
                 height={100}
@@ -133,14 +135,15 @@ const Navbar = () => {
           <Link href="#domains" onClick={handleScroll}>
             Domains
           </Link>
-          {/* <!-- <Link href="#">Prizes</Link > --> */}
           <Link href="#schedule" onClick={handleScroll}>
             Schedule
+          </Link>
+          <Link href="#prizes" onClick={handleScroll}>
+            Prizes
           </Link>
           <Link href="#sponsors" onClick={handleScroll}>
             Sponsors
           </Link>
-
           <Link href="#faqs" onClick={handleScroll}>
             FAQs
           </Link>

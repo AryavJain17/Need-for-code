@@ -40,7 +40,7 @@ const Landing = () => {
 
   return (
     <section id="home" className={styles.home}>
-      <video className={styles.backgroundVideo} autoPlay loop muted>
+      <video className={styles.backgroundVideo} playsInline autoPlay loop muted>
         <source src="./images/video/Website Visuals.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
@@ -93,8 +93,8 @@ const Landing = () => {
             <button type="button" className="Btn zinc-bg">
               <a href="#" target="_blank"> {/* Change the href once devfolio link is activated */}
                 <div className="gradient-mask blue-bg"></div>
-                <span className="text" style={{ color: "white", fontSize: 16 }}>
-                  Apply with Devfolio
+                <span className="text" style={{ color: "white", fontSize: 16, marginLeft:"-25px",width:"250px" }}>
+                  Registration starting soon...
                 </span>
               </a>
             </button>
