@@ -40,7 +40,7 @@ const Landing = () => {
 
   return (
     <section id="home" className={styles.home}>
-    <video className={styles.backgroundVideo} playsInline autoPlay muted loop>
+    <video className={styles.backgroundVideo} playsInline autoPlay muted loop controls="false">
   <source src="/images/video/newtry.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
