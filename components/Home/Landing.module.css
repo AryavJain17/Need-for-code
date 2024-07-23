@@ -58,7 +58,8 @@
 
 @media (max-width: 768px) {
   .backgroundVideo {
-    position: fixed;
+    background-color: black;
+    position: absolute;
     /* top: 0; */
     /* bottom: 100; */
     margin-top: -145px !important;
